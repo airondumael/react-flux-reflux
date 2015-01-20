@@ -1,0 +1,54 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background: #ececec;
+    color: #2e2e2e;
+    font-family: Muli;
+}
+
+.header {
+    background: #2e2e2e;
+    color: #ececec;
+    margin: 0;
+    line-height: 2em;
+    padding: 0 2em;
+    z-index: 2000;
+}
+
+.header .task-counts {
+    float: right;
+}
+
+.task-composer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    overflow: hidden;
+}
+
+ul.task-items {
+    position: absolute;
+    top: 20px;
+    bottom: 60px;
+    overflow-y: auto;
+    left: 0;
+    right: 0;
+}
+
+li.task-item {
+    display: block;
+    padding: 20px;
+    margin: 0;
+    border-bottom: 1px solid #cecece;
+}
+
+li.task-item button {
+    float: right;
+}
+
+.task-composer textarea {
+    width: 100%;
+    height: 100%;
+}
